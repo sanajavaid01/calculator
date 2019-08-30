@@ -1,0 +1,181 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Scientific calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	 <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+	 <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header id="header-section">
+		<ul id="logo-section">
+			<li>
+				<span id="logo"><img src="images/cal2.png"></span>
+			</li>
+			<li>
+				<h1>Scientific Calculator</h1>
+		    </li>
+		</ul>
+		
+		
+	</header>
+	<div class="container">
+		<div id="calculator">
+			<div class="row ">
+				<div class="col-md-12">
+					<div class="calculator_screen">
+						<input type="text" class="operands" id="operands" name="operands" value="0" readonly="readonly">
+
+							
+				
+						<div class="result" id="result">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 ">
+					<div class="calculator_panel">
+						<ul class="panel_buttons">
+							<li>
+								<button type="button" class="btn btn-brown" id="cos_inv">cos<sup>-1<sup></button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown" id="sin_inv">sin<sup>-1<sup></button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown" id="tan">tan</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown" id="cos">cos</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown-semi-round" id="sin">sin</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey" id="7">7</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey" id="8">8</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey" id="9">9</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey" id="+">+</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-yellow" id="back">back</button>
+							</li>
+						</ul>
+						<ul class="panel_buttons">
+							<li>
+								<button type="button" class="btn btn-brown" id="x_power_y">x<sup>y</sup></button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown">x<sup>3</sup></button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown">x<sup>2</sup></button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown">e<sup>x</sup></button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown-semi-round">10 <sup>x</sup></button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey" id="4">4</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey" id="5">5</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey" id="6">6</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey" id="-">-</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey" id="ans">Ans</button>
+							</li>
+						</ul>
+						<ul class="panel_buttons">
+							<li>
+								<button type="button" class="btn btn-brown">y &radic; x</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown">3 &radic; x</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown">&radic; x</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown" id="ln">ln</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown-semi-round" id="log">log</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey" id="1">1</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey" id="2">2</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey" id="3">3</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey multiplication" id="*">*</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey exponential" id="exp">EXP</button>
+							</li>
+						</ul>
+						<ul class="panel_buttons">
+							<li>
+								<button type="button" class="btn btn-brown" id="(">(</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown" id=")">)</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown">1/x</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown" >%</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-brown-semi-round">n!</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey zero" id="0">0</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey point" id=".">.</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey ac" id="ac">AC</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-grey division" id="/">/</button>
+							</li>
+							<li>
+								<button type="button" class="btn btn-black-semi-round equal_to" id="=">=</button>
+							</li>
+						</ul>
+						
+				    </div>
+				</div>
+			</div>
+	    </div>
+	</div>
+	
+
+
+
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+	<script   src="js/jquery.js" type="text/javascript"></script>
+	<script   src="js/index.js" type="text/javascript"></script>
+</body>
+</html>

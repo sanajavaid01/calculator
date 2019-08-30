@@ -1,0 +1,180 @@
+
+
+
+body{
+	font-family: 'Manjari', sans-serif !important;
+	background-image: url("../images/background.jpg");: 
+}
+
+
+
+/*//header section*/
+#header-section
+{
+	width: 100%;
+	background-color: #f5e042;
+	color:black;
+	font-size:50px;
+	padding: 20px;
+	 font-weight: 800;
+    text-align: center;
+    height: 150px;
+        border-bottom: solid #82827d 15px;
+
+}
+
+#logo img
+{
+	height: 100px;
+	width: 100px;
+}
+#logo-section
+{
+	display: inline-flex;
+    list-style: none;
+}
+#logo-section li h1
+{
+	padding: 20px;
+    font-weight: 600;
+    font-size: 50px;
+
+}
+#calculator
+{
+	border:#82827d 2px solid;
+	border-radius:10px;
+	/*padding:20px;*/
+	margin:30px;
+	/*width: 80%;*/
+}
+
+.calculator_screen
+{
+	margin: 0px;
+	height: 150px;
+	color: #82827d;
+    background-color: #f5e042;
+    padding: 30px;
+       border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+ 
+
+}
+
+.operands
+{
+	width:100%;
+	height: 40px;
+	font-size:24px;
+	font-weight: 700;
+	padding: 10px;
+	text-align : right;
+	background: none;
+	border: none;
+
+
+}
+.result
+{
+	/*width:100%;*/
+	height: 60px;
+	font-size: 36px;
+	padding: 10px;
+	text-align:right;
+	font-weight: 700;
+
+}
+.calculator_panel
+{
+background-color: #e6e6e6;
+border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.panel_buttons
+{
+	    display: inline-flex;
+    list-style: none;
+    margin-left: -42px;
+
+}
+.btn
+{
+	width:100px;
+	margin:4px;
+}
+.btn-grey
+{
+    color: #000 !important;
+    background-color: #e6e6e6 !important;
+    border-color: #e6e6e6 !important;
+    font-size: 25px !important;
+    font-weight: 600 !important;
+
+}
+ ul:first-child.panel_buttons li:last-child
+{
+		color: #82827d;
+    background-color: #f5e042;
+     border-bottom-left-radius: 35px !important;
+    border-bottom-right-radius: 35px !important;
+}
+.btn-yellow
+{
+	width: 97px;
+    color: #000 !important;
+    background-color: #f5e042 !important;
+    border-color: #f5e042 !important;
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    border-bottom-left-radius: 35px !important;
+    border-bottom-right-radius: 35px !important;
+
+}
+.btn-brown
+{
+	width: 97px;
+    color: #f5e042 !important;
+    background-color: #82827d !important;
+    border-color: #82827d !important;
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    
+
+}
+.btn-brown-semi-round
+{
+	width: 97px;
+    color: #f5e042 !important;
+    background-color: #82827d !important;
+    border-color: #82827d !important;
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    border-top-right-radius: 35px !important;
+    border-bottom-right-radius: 35px !important;
+ 
+}
+.btn-black-semi-round
+{
+	width: 97px;
+    color: #f5e042 !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    border-radius: 35px !important;
+    /*border-bottom-left-radius: 35px !important;*/
+ 
+}
+
+
+ul.panel_buttons li:nth-child(1),ul.panel_buttons li:nth-child(2),ul.panel_buttons li:nth-child(3),ul.panel_buttons li:nth-child(4),ul.panel_buttons li:nth-child(5)
+{
+   background-color: #82827d; 
+}
+ul.panel_buttons li:nth-child(5)
+{
+	border-top-right-radius: 35px !important;
+    border-bottom-right-radius: 35px !important;
+}
+
